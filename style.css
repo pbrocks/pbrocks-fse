@@ -44,25 +44,37 @@ body {
 	padding-bottom: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 1rem 0 1rem;
 	letter-spacing: -0.05em;
+}
+h1,
+h2 {
+    margin: 2rem 4rem;
 }
 
 p {
 	margin: 1rem 0 1rem;
 }
 
-ul,ol {
-	padding-left: 1em;
+ul,
+ol {
+	padding-left: 1rem;
 }
 
-.rtl ul,.rtl ol {
+.rtl ul,
+.rtl ol {
 	padding-left: 0;
-	padding-right: 1em;
+	padding-right: 1rem;
 }
 
-b,strong {
+b,
+strong {
 	font-weight: 700;
 }
 
@@ -98,12 +110,12 @@ img,
 
 .wp-site-blocks .alignleft {
 	float: left;
-	margin-right: 2em;
+	margin-right: 2rem;
 }
 
 .wp-site-blocks .alignright {
 	float: right;
-	margin-left: 2em;
+	margin-left: 2rem;
 }
 
 .is-style-narrow-width {
@@ -114,17 +126,17 @@ img,
 
 .is-style-text-columns-2 {
 	columns: 2 14em;
-	column-gap: 2em;
+	column-gap: 2rem;
 }
 
 .is-style-text-columns-3 {
 	columns: 3 14em;
-	column-gap: 2em;
+	column-gap: 2rem;
 }
 
 .is-style-text-columns-4 {
 	columns: 4 14em;
-	column-gap: 2em;
+	column-gap: 2rem;
 }
 
 .is-style-text-columns-2 p:first-of-type,
@@ -201,7 +213,7 @@ a.wp-block-post-title > h6 {
 p.has-background,
 .wp-block-group.has-background,
 .wp-block-template-part.has-background {
-	padding: 0.5em 1em;
+	padding: 0.5em 1rem;
 }
 
 header > .wp-block-group.has-background,
@@ -223,31 +235,31 @@ footer > .wp-block-group.has-background,
 
 .wp-block-query.is-style-box-shadow li {
 	background-color: var(--wp--preset--color--white);
-	padding: 1em;
-	margin-bottom: 1em;
+	padding: 1rem;
+	margin-bottom: 1rem;
 	box-shadow: 6px 6px rgba(75,81,97,0.12);
 	border-radius: 6px;
 }
 
 .wp-block-query.is-style-box-shadow-2 li {
 	background-color: var(--wp--preset--color--white);
-	padding: 1em;
-	margin-bottom: 1em;
+	padding: 1rem;
+	margin-bottom: 1rem;
 	box-shadow: 3px 5px 20px 0 rgba(0,0,0,0.12);
 }
 
 .wp-block-query.is-style-border li {
 	background-color: var(--wp--preset--color--white);
-	padding: 1em;
-	margin-bottom: 1em;
+	padding: 1rem;
+	margin-bottom: 1rem;
 	border: 3px solid rgba(0,0,0,0.05);
 	border-radius: 6px;
 }
 
 .wp-block-query.is-style-border-2 li {
 	background-color: rgba(0,0,0,0.01);
-	padding: 1em;
-	margin-bottom: 1em;
+	padding: 1rem;
+	margin-bottom: 1rem;
 	border: 1px solid rgba(0,0,0,0.04);
 }
 
@@ -282,7 +294,7 @@ footer > .wp-block-group.has-background,
 
 .wp-block-query-pagination {
 	justify-content: space-between;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .wp-block-query-pagination > .wp-block-query-pagination-next,
@@ -344,12 +356,12 @@ footer > .wp-block-group.has-background,
 .wp-block-post-comments .navigation {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .wp-block-post-comments .comment-respond,
 .wp-block-post-comments-form {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .wp-block-post-comments-form:empty {
@@ -373,19 +385,19 @@ footer > .wp-block-group.has-background,
 .commentlist ol .trackback,
 .commentlist .pingback,
 .commentlist ol .pingback {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .comment-list ol li,
 .commentlist ol li,
 .commentlist ul li {
-	padding-left: 1em;
-	margin-bottom: 2em;
+	padding-left: 1rem;
+	margin-bottom: 2rem;
 }
 
 .comment-list li > .comment-body,
 .commentlist li > .comment-body {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .comment-author .avatar {
@@ -399,7 +411,7 @@ footer > .wp-block-group.has-background,
 .comment-respond {
 	background-color: var(--wp--preset--color--white);
 	border: 1px solid #eee;
-	padding: 2em;
+	padding: 2rem;
 }
 
 .comment-form label,
@@ -430,7 +442,7 @@ textarea,
 select {
 	border: 2px solid #eee;
 	background-color: #fbfbfb;
-	padding: 1em;
+	padding: 1rem;
 }
 
 input[type="text"]:focus,
@@ -472,7 +484,7 @@ input[type="submit"] {
 
 .wp-block-post-comments-form input[type="submit"] {
 	background-color: var(--wp--preset--color--dark);
-	font-size: 1em;
+	font-size: 1rem;
 	border-radius: 6px;
 }
 
@@ -758,8 +770,8 @@ input[type="submit"] {
 	padding: 0;
 	width: 100%;
 	max-width: inherit;
-	height: 1em;
-	font-size: 2em;
+	height: 1rem;
+	font-size: 2rem;
 	cursor: pointer;
 }
 
@@ -823,8 +835,8 @@ input[type="submit"] {
 		padding: 0;
 		width: 100%;
 		max-width: inherit;
-		height: 1em;
-		font-size: 2em;
+		height: 1rem;
+		font-size: 2rem;
 		cursor: pointer;
 	}
 
