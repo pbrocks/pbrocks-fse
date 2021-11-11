@@ -2,5 +2,5 @@
 
 ##  ToDo
 
- - [] get rid of !important
+ - [ ] get rid of `!important`
 
