@@ -16,11 +16,6 @@
  * PBrocks FSE is distributed under the terms of the GNU GPL.
  */
 
-.wp-block-post-template {
-	min-height: 50vh;
-}
-
-
 body {
 	margin: 0;
 }
@@ -36,6 +31,7 @@ body {
 
 .site-content {
 	overflow-x: hidden;
+    min-height: 55vh;
 }
 
 .site-content.has-background,
@@ -45,21 +41,34 @@ body {
 }
 
 h1,
-h2,
+h2 {
+	margin: 2rem 4rem;
+}
+
+p,
 h3,
 h4,
 h5,
 h6 {
 	margin: 1rem 0 1rem;
-	letter-spacing: -0.05em;
-}
-h1,
-h2 {
-	margin: 2rem 4rem;
 }
 
-p {
-	margin: 1rem 0 1rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: -0.07rem;
+}
+
+.edit-post-text-editor h1,
+.edit-post-text-editor h2,
+.edit-post-text-editor h3,
+.edit-post-text-editor h4,
+.edit-post-text-editor h5,
+.edit-post-text-editor h6 {
+	letter-spacing: 0;
 }
 
 ul,
@@ -125,17 +134,17 @@ img,
 }
 
 .is-style-text-columns-2 {
-	columns: 2 14em;
+	columns: 2 14rem;
 	column-gap: 2rem;
 }
 
 .is-style-text-columns-3 {
-	columns: 3 14em;
+	columns: 3 14rem;
 	column-gap: 2rem;
 }
 
 .is-style-text-columns-4 {
-	columns: 4 14em;
+	columns: 4 14rem;
 	column-gap: 2rem;
 }
 
@@ -164,7 +173,7 @@ img,
 }
 
 .is-style-text-indent {
-	text-indent: 1.5em;
+	text-indent: 1.5rem;
 }
 
 .is-style-no-margin {
@@ -213,7 +222,7 @@ a.wp-block-post-title > h6 {
 p.has-background,
 .wp-block-group.has-background,
 .wp-block-template-part.has-background {
-	padding: 0.5em 1rem;
+	padding: 0.5rem 1rem;
 }
 
 header > .wp-block-group.has-background,
@@ -300,11 +309,11 @@ footer > .wp-block-group.has-background,
 .wp-block-query-pagination > .wp-block-query-pagination-next,
 .wp-block-query-pagination > .wp-block-query-pagination-numbers,
 .wp-block-query-pagination > .wp-block-query-pagination-previous {
-	margin: 0 0 .5em 0;
+	margin: 0 0 .5rem 0;
 }
 
 .page-numbers {
-	margin: 0 .25em;
+	margin: 0 .25rem;
 }
 
 @media (max-width: 599px) {
@@ -328,14 +337,14 @@ footer > .wp-block-group.has-background,
 }
 
 .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
-	padding: 0.5em;
+	padding: 0.5rem;
 	border: none;
 	background-color: var(--wp--preset--color--white);
 	border-radius: 6px;
 }
 
 .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button {
-	padding: 0.5em;
+	padding: 0.5rem;
 }
 
 .wp-block-search .wp-block-search__input {
@@ -475,8 +484,8 @@ input[type="submit"] {
 	box-shadow: none;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.125em;
-	padding: .667em 1.333em;
+	font-size: 1.125rem;
+	padding: .667rem 1.333rem;
 	text-align: center;
 	text-decoration: none;
 	overflow-wrap: break-word;
@@ -659,7 +668,7 @@ input[type="submit"] {
 .wp-block-post-terms.is-style-with-icon-cats:before {
 	font-family: dashicons;
 	vertical-align: top;
-	padding-right: .5em;
+	padding-right: .5rem;
 }
 
 .rtl .wp-block-post-author.is-style-with-icon:before,
@@ -667,7 +676,7 @@ input[type="submit"] {
 .rtl .wp-block-post-terms.is-style-with-icon-tags:before,
 .rtl .wp-block-post-terms.is-style-with-icon-cats:before {
 	padding-right: 0;
-	padding-left: .5em;
+	padding-left: .5rem;
 }
 
 .wp-block-post-author.is-style-with-icon:before {
@@ -695,14 +704,14 @@ input[type="submit"] {
 	color: var(--wp--preset--color--white);
 	text-decoration: none;
 	border-radius: 6px;
-	padding: .667em 1.333em;
+	padding: .667rem 1.333rem;
 }
 
 .wp-block-post-excerpt.is-style-read-more-button-outline .wp-block-post-excerpt__more-text a {
 	color: inherit;
 	text-decoration: none;
 	border-radius: 6px;
-	padding: .667em 1.333em;
+	padding: .667rem 1.333rem;
 	border: 1px solid;
 }
 
@@ -714,7 +723,7 @@ input[type="submit"] {
 	font-family: dashicons;
 	content: "\f345";
 	vertical-align: top;
-	padding-left: .25em;
+	padding-left: .25rem;
 }
 
 .wp-block-group.is-style-group-cover-offset {

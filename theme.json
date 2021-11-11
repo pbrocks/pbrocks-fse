@@ -34,13 +34,13 @@
 					"name": "Light grey"
 				},
 				{
-					"slug": "cyan",
-					"color": "#00838f",
-					"name": "Cyan"
+					"slug": "dark-cyan",
+					"color": "#3d7a7a",
+					"name": "Dark Cyan"
 				},
 				{
 					"slug": "light-cyan",
-					"color": "#4fb3bf",
+					"color": "#58acac",
 					"name": "Light cyan"
 				}
 			],
