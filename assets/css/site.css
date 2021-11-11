@@ -1,25 +1,8 @@
 /**
- * Theme Name: PBrocks FSE
- * Theme URI: https://github.com/pbrocks/pbrocks-fse
- * Author: pbrocks
- * Description: Block-based WP Theme
- * Requires at least: 5.3
- * Tested up to: 5.5
- * Requires PHP: 5.6
- * Version: 1.0.1
- * License: GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: pbrocks-fse
- *
+ * More complete CSS.
+ * 
  * @package: pbrocks_fse
- * PBrocks FSE WordPress Theme, (C) 2021 pbrocks
- * PBrocks FSE is distributed under the terms of the GNU GPL.
  */
-
-.wp-block-post-template {
-	min-height: 50vh;
-}
-
 
 body {
 	margin: 0;
