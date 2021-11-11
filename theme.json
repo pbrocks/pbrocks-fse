@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"templateParts": [
+		{
+			"name": "header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"area": "footer"
+		}
+	],
+	"settings": {
+		"color": {
+			"gradients": [],
+			"link": true,
+			"palette": []
+		},
+		"spacing": {
+			"customPadding": true
+		},
+		"typography": {
+			"customLineHeight": true,
+			"fontFamilies": [],
+			"fontSizes": []
+		},
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		}
+	}
+}
