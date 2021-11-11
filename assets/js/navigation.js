@@ -1,6 +1,6 @@
 /**
  * Add toggle state.
- * 
+ *
  * @package: pbrocks_fse
  */
 

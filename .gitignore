@@ -16,9 +16,9 @@ wp-content/themes/twenty*/
 
 # ignore node dependency directories
 node_modules/
+.DS_Store
 
 # ignore log files and databases
 *.log
 *.sql
 *.sqlite
-.DS_Store

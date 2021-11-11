@@ -1,6 +1,6 @@
 /**
  * Resize elements on change of window size.
- * 
+ *
  * @package: pbrocks_fse
  */
 
