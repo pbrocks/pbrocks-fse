@@ -52,14 +52,18 @@ add_action( 'enqueue_block_editor_assets', 'pbrocks_fse_editor_scripts' );
  * Required for Site Editor
  */
 function pbrocks_fse_editor_scripts() {
-	wp_enqueue_style( 'pbrocks-fse-style',
-	get_template_directory_uri() . '/style.css',
-	array(),
-	wp_get_theme()->get( 'Version' ) );
-	wp_enqueue_style( 'pbrocks-fse-fonts-style',
-	pbrocks_fse_fonts_url(),
-	array(),
-	wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style(
+		'pbrocks-fse-style',
+		get_template_directory_uri() . '/style.css',
+		array(),
+		wp_get_theme()->get( 'Version' )
+	);
+	wp_enqueue_style(
+		'pbrocks-fse-fonts-style',
+		pbrocks_fse_fonts_url(),
+		array(),
+		wp_get_theme()->get( 'Version' )
+	);
 }
 
 /**

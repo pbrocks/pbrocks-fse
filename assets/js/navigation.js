@@ -4,7 +4,7 @@
  * @package: pbrocks_fse
  */
 
-jQuery(
+jQuery( document ).ready(
 	function( $ ) {
 		var toggleButton = '<button class="toggle-group dashicons dashicons-menu-alt"></button>';
 
