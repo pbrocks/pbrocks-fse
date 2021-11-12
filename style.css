@@ -18,7 +18,6 @@
 
 body {
 	margin: 0;
-	font-family: var(--wp--preset--font-family--roboto);
 }
 
 * {
@@ -65,7 +64,6 @@ h4,
 h5,
 h6 {
 	letter-spacing: -0.07rem;
-	font-family: var(--wp--preset--font-family--merriweather);
 }
 
 .edit-post-text-editor h1,
