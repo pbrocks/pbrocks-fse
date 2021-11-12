@@ -110,9 +110,9 @@ function pbrocks_fse_remove_archive_title_prefix( $prefix ) {
 /**
  * Block styles.
  */
-// if ( function_exists( 'register_block_style' ) ) {
-// require get_template_directory() . '/inc/block-styles.php';
-// }
+if ( function_exists( 'register_block_style' ) ) {
+require get_template_directory() . '/inc/block-styles.php';
+}
 
 add_action( 'admin_menu', 'pbrocks_fse_add_custom_css_menu_item' );
 /**
