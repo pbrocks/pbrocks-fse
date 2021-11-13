@@ -82,11 +82,11 @@ function pbrocks_fse_editor_scripts() {
  */
 function pbrocks_fse_fonts_url() {
 	$font_families = array(
-		'Quicksand:wght@300;400;500;600;700',
-		'Work+Sans:wght@300;400;500;600;700',
-		'Roboto:wght@100;300;400;500;700;900',
-		'Roboto+Slab:wght@100;200;300;400;500;600;700;800;900',
-		'Merriweather:wght@300;400;700;900',
+		'Inter:wght@300;400;500;600;700',
+		'Nunito+Sans:wght@300;400;500;600;700',
+		'Cabin:wght@100;300;400;500;700;900',
+		'Noto+Serif:wght@100;200;300;400;500;600;700;800;900',
+		'Tinos:wght@300;400;700;900',
 	);
 
 	$fonts_url = add_query_arg(
