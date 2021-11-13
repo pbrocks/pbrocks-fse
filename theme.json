@@ -55,29 +55,29 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "Quicksand, sans-serif",
-					"name": "Quicksand",
-					"slug": "quicksand"
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
 				},
 				{
-					"fontFamily": "\"Work Sans\", sans-serif",
-					"name": "Work Sans",
-					"slug": "work-sans"
+					"fontFamily": "\"Nunito Sans\", sans-serif",
+					"name": "Nunito Sans",
+					"slug": "nunito-sans"
 				},
 				{
-					"fontFamily": "Roboto, sans-serif",
-					"name": "Roboto",
-					"slug": "roboto"
+					"fontFamily": "Cabin, sans-serif",
+					"name": "Cabin",
+					"slug": "cabin"
 				},
 				{
-					"fontFamily": "\"Roboto Slab\", serif",
-					"name": "Roboto Slab",
-					"slug": "roboto-slab"
+					"fontFamily": "\"Noto Serif\", serif",
+					"name": "Noto Serif",
+					"slug": "noto-serif"
 				},
 				{
-					"fontFamily": "Merriweather, serif",
-					"name": "Merriweather",
-					"slug": "merriweather"
+					"fontFamily": "Tinos, serif",
+					"name": "Tinos",
+					"slug": "tinos"
 				}
 			],
 			"fontSizes": [
