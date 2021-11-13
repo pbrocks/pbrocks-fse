@@ -4,7 +4,8 @@ WordPress Full-Site Editing theme. This theme repository represents the learning
 
 ## Revision History
 
--   v1.0.3 Layout html and css
+-   v1.0.4 Editor CSS
+-   v1.0.3 Layout HTML and CSS
 -   v1.0.2 WPPT Theme Loader
 -   v1.0.1 Add jQuery files, gitignore
 -   v1.0.0 Initial templates
