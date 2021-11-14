@@ -365,6 +365,13 @@ footer > .wp-block-group.has-background,
 	cursor: pointer;
 }
 
+.wp-block-search.wp-block-search__button-inside 
+.wp-block-search__inside-wrapper .wp-block-search__input {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: 0 0 0 0.25em;
+}
+
 .wp-block-post-comments .no-comments,
 .wp-block-post-comments .nocomments {
 	display: none;
