@@ -2,3 +2,6 @@ h1,
 h2 {
 	margin: 0;
 }
+.wp-block-media-text.is-style-angled-divider .wp-block-media-text__media {
+	clip-path: polygon(100% 0%, 90% 100%, 0% 100%, 0% 0%);
+}

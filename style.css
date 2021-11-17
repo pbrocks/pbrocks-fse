@@ -42,7 +42,7 @@ body {
 
 h1,
 h2 {
-	margin: 2rem 4rem;
+	/* margin: 2rem 4rem; */
 }
 
 h1.wp-block-site-title {
@@ -74,6 +74,11 @@ h6 {
 .edit-post-text-editor h6 {
 	letter-spacing: 0;
 	margin: 0;
+}
+
+.wp-block-navigation__responsive-container
+	.wp-block-navigation__responsive-container-content {
+	justify-content: flex-end;
 }
 
 ul,
@@ -191,6 +196,8 @@ img,
 
 .wp-block-post-title {
 	overflow-wrap: break-word;
+	text-align: center;
+	padding-top: 3rem;
 }
 
 .wp-block-post-title a {
@@ -258,8 +265,33 @@ footer > .wp-block-group.has-background,
 .wp-block-query.is-style-box-shadow-2 li {
 	background-color: var(--wp--preset--color--white);
 	padding: 1rem;
+	padding: 0;
 	margin-bottom: 1rem;
 	box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+li.wp-block-post.category-development-journal {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* .wp-block-post-featured-image img {
+	min-height: 170px;
+	overflow: hidden;
+	width: auto;
+} */
+
+/* li.wp-block-post.category-development-journal
+	> .wp-block-post-featured-image
+	img {
+	overflow: hidden;
+	width: auto;
+} */
+
+li.wp-block-post.category-development-journal > .wp-block-post-featured-image {
+	overflow: hidden;
+	height: 156px;
 }
 
 .wp-block-query.is-style-border li {
@@ -365,11 +397,12 @@ footer > .wp-block-group.has-background,
 	cursor: pointer;
 }
 
-.wp-block-search.wp-block-search__button-inside 
-.wp-block-search__inside-wrapper .wp-block-search__input {
-    border: 1px solid #ddd;
-    border-radius: 0;
-    padding: 0 0 0 0.25em;
+.wp-block-search.wp-block-search__button-inside
+	.wp-block-search__inside-wrapper
+	.wp-block-search__input {
+	border: 1px solid #ddd;
+	border-radius: 0;
+	padding: 0 0 0 0.25em;
 }
 
 .wp-block-post-comments .no-comments,

@@ -2,15 +2,59 @@
 
 <!-- wp:group {"tagName":"main","className":"site-content page-no-title"} -->
 <main id="primary" class="wp-block-group site-content page-no-title">
+	<!-- wp:media-text {"align":"full","mediaId":67,"mediaLink":"https://pbrocks-fse.local/code-home/","mediaType":"image","mediaWidth":60,"imageFill":false,"backgroundColor":"dark","textColor":"light","className":"is-style-angled-divider"} -->
+	<div
+		class="
+			wp-block-media-text
+			alignfull
+			is-stacked-on-mobile is-style-angled-divider
+			has-light-color
+			has-dark-background-color
+			has-text-color
+			has-background
+		"
+		style="grid-template-columns: 60% auto"
+	>
+		<figure class="wp-block-media-text__media">
+			<img
+				src="https://pbrocks-fse.local/wp-content/uploads/2019/01/code-home-1024x683.jpg"
+				alt="code on laptop screen"
+				class="wp-image-67 size-full"
+			/>
+		</figure>
+		<div class="wp-block-media-text__content">
+			<!-- wp:paragraph {"fontSize":"large"} -->
+			<p class="has-large-font-size">Front Page</p>
+			<!-- /wp:paragraph -->
 
+			<!-- wp:paragraph -->
+			<p>Site Description</p>
+			<!-- /wp:paragraph -->
+		</div>
+	</div>
+	<!-- /wp:media-text -->
+
+	<!-- wp:spacer -->
+	<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 	<!-- wp:post-content {"layout":{"inherit":true}} /-->
 
-	<!-- wp:group {"layout":{"inherit":true}} -->
-	<div class="wp-block-group">
-		<!-- wp:post-comments /-->
+	<!-- wp:spacer -->
+	<div style="height: 50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	<!-- wp:group {"align":"wide"} -->
+	<div class="wp-block-group alignwide">
+		<!-- wp:query {"queryId":1,"query":{"offset":0,"perPage":6,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":4},"className":"is-style-box-shadow-2"} -->
+		<div class="wp-block-query is-style-box-shadow-2">
+			<!-- wp:post-template -->
+			<!-- wp:post-title {"isLink":true} /-->
+
+			<!-- wp:post-featured-image {"isLink":true} /-->
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
 	</div>
 	<!-- /wp:group -->
-
 </main>
 <!-- /wp:group -->
 
