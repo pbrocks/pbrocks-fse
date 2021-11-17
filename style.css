@@ -244,7 +244,7 @@ footer > .wp-block-group.has-background,
 	padding-left: 0;
 	padding-right: 0;
 }
-
+/*
 .site-header-inner > *,
 .site-footer-inner > *,
 .site-content > :not(.wp-block-group):not(.entry-content),
@@ -252,7 +252,7 @@ footer > .wp-block-group.has-background,
 .site-content > .entry-content > :not(.wp-block-image) {
 	padding-left: 1rem;
 	padding-right: 1rem;
-}
+} */
 
 .wp-block-query.is-style-box-shadow li {
 	background-color: var(--wp--preset--color--white);
