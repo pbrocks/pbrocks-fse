@@ -197,7 +197,7 @@ img,
 .wp-block-post-title {
 	overflow-wrap: break-word;
 	text-align: center;
-	padding-top: 3rem;
+	padding-top: 1rem;
 }
 
 .wp-block-post-title a {
@@ -273,25 +273,22 @@ footer > .wp-block-group.has-background,
 li.wp-block-post.category-development-journal {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
-/* .wp-block-post-featured-image img {
-	min-height: 170px;
-	overflow: hidden;
-	width: auto;
-} */
-
-/* li.wp-block-post.category-development-journal
+li.wp-block-post.category-development-journal
 	> .wp-block-post-featured-image
 	img {
-	overflow: hidden;
+	height: 197px;
+	max-width: 100%;
+	vertical-align: bottom;
 	width: auto;
-} */
+}
 
 li.wp-block-post.category-development-journal > .wp-block-post-featured-image {
 	overflow: hidden;
-	height: 156px;
+	height: 175px;
+	margin-top: auto;
 }
 
 .wp-block-query.is-style-border li {
